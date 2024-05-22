@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const db = process.env.DB;
-console.log(db)
+//console.log(db)
 
 async function main() {
     try {
@@ -12,7 +12,7 @@ async function main() {
 } catch (error) {
 
     console.log(`Erro: ${error}`)
-    
+
 }}
     
 module.exports = main

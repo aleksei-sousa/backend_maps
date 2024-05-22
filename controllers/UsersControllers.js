@@ -38,6 +38,7 @@ module.exports = class UserController {
             return
         }
 
+
         await createUserToken(user, req, res)
 
     }
